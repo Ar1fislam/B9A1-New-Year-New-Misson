@@ -225,6 +225,18 @@ main, header{
     display: flex;
     gap:20px;
     margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image{
+    transition: transform 0.3s;
+}
+.image:hover{
+    cursor: pointer;
+   transform: scale(0.9);
+   border: 3px solid black;
+   border-radius: 20px;
 }
 
 /* Newsletter styles */
