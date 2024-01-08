@@ -12,9 +12,9 @@ body{
 }
 
 main, header{
-    margin: 100px;
+    margin: 80px;
     margin-top: 50px;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 /* banner styles */
@@ -230,6 +230,8 @@ main, header{
 }
 
 .image{
+    width:25%;
+    height: auto;
     transition: transform 0.3s;
 }
 .image:hover{
