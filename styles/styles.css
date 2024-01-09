@@ -229,7 +229,7 @@ main, header{
     z-index: 4;
     position: absolute;
     left: 0;
-    transform: translatex(20%);
+    transform: translatex(10%);
 }
 .sale4{
     z-index: 1;
